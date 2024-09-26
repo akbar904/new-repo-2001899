@@ -1,0 +1,19 @@
+name: simple_pet_app
+description: A simple Flutter app that toggles text between 'Cat' and 'Dog' when clicked.
+version: 1.0.0
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^8.0.3
+  mocktail: ^0.2.0
+
+flutter:
+  uses-material-design: true
